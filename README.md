@@ -1,9 +1,6 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 📦 Academic Performcance Predictor app
 
-Description of the app ...
+This is an app that takes predictors and predicts whether a student is at risk of failing a class
 
 ## Demo App
 
