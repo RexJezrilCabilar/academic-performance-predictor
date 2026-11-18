@@ -1,4 +1,4 @@
 streamlit
 numpy
 pandas
-sklearn=1.6.1
+sklearn==1.6.1
