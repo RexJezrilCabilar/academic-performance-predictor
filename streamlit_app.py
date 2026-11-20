@@ -81,7 +81,7 @@ except Exception as error:
 # ---------------------------------------------------------------------
 st.title("Academic Performance Rating predictor")
 st.write(
-    "This website predicts whether a student is likely to pass or fail based on multiple predictors of student success.\n"
+    "This website predicts whether a student is likely to pass or fail based on multiple predictors of student success.\n\n"
     "Enter the activity counts below, then click **Predict rating**. "
     "The model predicts whether the rating is **High** or **Low**."
 )
