@@ -136,6 +136,7 @@ if submitted:
 
 with st.expander("About this model"):
     st.write(
+        f"- Description: This website predicts whether a student is likely to pass or fail based on multiple predictors of student success.\n"
         f"- Type: Random Forest with {len(model.estimators_)} trees\n"
         f"- Ratings it can predict: {', '.join(map(str, model.classes_))}\n"
         f"- scikit-learn version running this app: {sklearn.__version__}"
