@@ -6,7 +6,7 @@ import sklearn
 import streamlit as st
 
 
-st.set_page_config(page_title="Academic Performance Rating predictor", page_icon="📊")
+st.set_page_config(page_title="Academic Performance Rating predictor", page_icon="👨‍🎓")
 
 
 MODEL_PATH = Path(__file__).parent / "rf_model.joblib"
