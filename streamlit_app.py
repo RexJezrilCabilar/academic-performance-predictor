@@ -1,11 +1,3 @@
-# streamlit_app.py
-# Predicts a rating (High or Low) using the Random Forest model saved from Google Colab.
-#
-# These 3 files must be in the SAME folder of your GitHub repo:
-#   streamlit_app.py   (this file)
-#   rf_model.joblib    (made by the Colab cell)
-#   requirements.txt   (made by the Colab cell)
-
 from pathlib import Path
 
 import joblib
@@ -13,18 +5,12 @@ import pandas as pd
 import sklearn
 import streamlit as st
 
-# This must be the first Streamlit command in the file.
+
 st.set_page_config(page_title="Rating predictor", page_icon="📊")
 
-# ---------------------------------------------------------------------
-# Settings
-# ---------------------------------------------------------------------
 
-# The model file saved from Colab (looked up next to this file).
 MODEL_PATH = Path(__file__).parent / "rf_model.joblib"
 
-# The 8 columns the model was trained on.
-# The spelling and the ORDER must match the notebook exactly.
 FEATURES = [
     "Submission.Actions",
     "Quiz.Actions",
